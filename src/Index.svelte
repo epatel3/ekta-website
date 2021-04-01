@@ -11,7 +11,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ekta Patel</title>
+  <title>Ekta J. Patel</title>
   <link rel='icon' type='image/png' href='/favicon.png'>
   <meta name="description" content="Hi! I am Ekta, a PhD candidate in the University Program in Environmental Policy (UPEP) with a concentration in Political Science at Duke."/>
 </svelte:head>
@@ -119,7 +119,7 @@
 <!-- Import font -->
 <Font/>
 
-<h1>Ekta Patel</h1>
+<h1>Ekta J. Patel</h1>
 
 <h2 class="sub">PhD Candidate, Environmental Policy, Duke University</h2>
 

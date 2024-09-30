@@ -117,12 +117,19 @@
       padding-right: var(--content-padding-right);
     }
 
+    hr {
+      margin-left: var(--content-left-margin);
+      max-width: var(--content-max-width);
+      padding-right: var(--content-padding-right);
+      border: solid 0.5px var(--primary-color);
+    }
+
     .action {
       margin-left: var(--content-left-margin);
       margin-top: 2rem;
       display: flex;
       align-items: center;
-      margin-bottom: 3rem;
+      margin-bottom: 2rem;
     }
 
     .action button {
@@ -176,18 +183,12 @@
       margin-left: 3.75rem;
     }
 
-    .dissertation-image {
-      float: left;
-      width: 8.40625rem;
-      margin-left: 3.625rem;
-      border: 0.0625rem solid var(--image-border-color);
-    }
-
     h2 {
       margin-left: var(--content-left-margin);
       color: var(--primary-color);
       font-size: 1.4375rem;
       letter-spacing: 0.15625rem;
+      margin-top: 2rem;
     }
 
     h3 {
@@ -239,8 +240,13 @@
       margin-right: 0.9375rem;
     }
 
+    .image-container img.dissertation-image {
+      width: 9rem;
+      border: 0.0625rem solid var(--image-border-color);
+    }
+
     footer {
-      margin-top: 2rem;
+      margin-top: 3rem;
       background: var(--footer-bg);
       height: 1.1875rem;
     }
@@ -273,12 +279,6 @@
         font-size: 1.5rem;
         margin-left: 2rem;
       }
-
-      .dissertation-image {
-        float: none;
-        margin-left: 1rem;
-        margin-top: var(--image-container-margin-top);
-      }
     }
 
     @media only screen and (max-width: 600px) {
@@ -295,16 +295,15 @@
     <div class="flex-header">
       <h1>Ekta&nbsp;J.&nbsp;Patel</h1>
       <nav>
-        <li><a href="EJPatel-CV.pdf" target="_blank">CV</a></li>
         <li><a href="#research">Research</a></li>
       </nav>
     </div>
   </header>
   <main>
     <p>
-      Hello! I am a recent PhD graduate in Environmental Policy with a
-      concentration in Political Science from Duke University. My research
-      interests include water governance, environmental resources management,
+      Hello! I am a Water and Policy Advisor at <a href="https://www.globalwaters.org/" target="_blank">USAID's Center for Water Security, Sanitation, and Hygiene</a> in Washington, DC.
+      I recently completed my PhD in Environmental Policy and Politics at Duke University, where my research
+      centered on global water governance, resource management,
       and climate change adaptation. I apply both quantitative and qualitative
       methods in my work, including computational text analysis, geospatial
       analysis, discourses, process tracing, and interviews.
@@ -312,105 +311,35 @@
 
     <p>
       I have assisted teaching courses on U.S. and global environmental
-      politics, environmental law, and peacebuilding, including co-teaching a
+      politics, law, and peacebuilding, including co-teaching a
       seminar on <a
         href="https://bassconnections.duke.edu/project-teams/mapping-wash-and-covid-19-middle-east-and-north-africa-2020-2021"
         target="_blank">Mapping
         WASH and COVID-19 in the Middle East and North
-        Africa</a>. I have also consulted and conducted research for various
-      organizations, including the U.S. Agency for International Development
-      (USAID), on topics related to water, food, land, biodiversity, and
+        Africa</a>. I also consulted for various
+      international organizations, including USAID, on topics related to water, food, land, biodiversity, and
       conflict.
     </p>
 
     <p>
       Prior to Duke, I was a business analyst and product designer at an
-      education technology start-up and received a B.A. in Environmental
+      education technology start-up and received a BA with honors in Environmental
       Science and Public Policy from Harvard University. I was born and raised
-      in Nairobi, Kenya and now reside in Durham, NC.
+      in Nairobi, Kenya.
     </p>
 
     <div class="action">
-      <a class="button-link" href="EJPatel-CV.pdf" target="_blank">
-        <button>
-          <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="14" fill="none">
-              <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3"
-                d="M5.1584 1.2868H1.2096v11.9789h8.0145v-7.849m-4.0657-4.13 4.0657 4.13m-4.0657-4.13v4.13H9.224M7.0429 7.8252H3.4154m3.6275 2.9874H3.4154" />
-            </svg></span>
-          CV <span class="button-info">(PDF)</span>
-        </button>
-      </a>
       <a class="email" href="mailto:epatel3@gmail.com" target="_blank"><span class="icon"><svg
             xmlns="http://www.w3.org/2000/svg" width="15" height="11" fill="none">
             <path stroke="var(--primary-color)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3"
               d="M1.5888.6665v9.5993H13.897V.6665m-12.3083 0 6.1541 5.0514L13.8971.6665m-12.3083 0H13.897" />
           </svg></span><span>epatel3@gmail.com</span></a>
     </div>
+    <hr>
 
     <h2 id="research">Research</h2>
 
-    <h3>Dissertation</h3>
-
-    <img class="dissertation-image" src="dissertation.jpg" alt="UN Water Expert Group timeline" />
-
-    <p>
-      <b>Managing (Unconventional) Water: Essays on Expert Knowledge, Media
-        Framings, and Stakeholder Debates</b>
-    </p>
-
-    <p>
-      This dissertation examines how water management is shaped at the level
-      of international organizations and what information on desalination is
-      shared and debated across two other policy-relevant settings: the global
-      media and a local community. It focuses on these three different
-      settings to capture wide information streams that individually and
-      collectively generate some of the corpus of knowledge on water
-      management and desalination.
-    </p>
-
-    <p>Papers:</p>
-
-    <ul>
-      <li>
-        <b>Expert Knowledge and International Coordinating Bodies: The Case of
-          UN-Water</b>
-        (under review)
-      </li>
-      <li>
-        <b>Framing Desalination: Alignments with Climate (Mal)Adaptation in
-          Global News Media</b>
-        (under review)
-      </li>
-      <li>
-        <b><a href="https://www.water-alternatives.org/index.php/alldoc/articles/vol16/v16issue2/706-a16-2-9/file"
-            target="_blank">Debating Desalination: Stakeholder Participation and
-            Decision-Making in Southern California</a></b>
-        (published in Water Alternatives)
-      </li>
-    </ul>
-
-    <h3>Book Chapters</h3>
-
-    <p>
-      <b>“<a href="https://www.elgaronline.com/edcollchap/book/9781802207149/book-part-9781802207149-10.xml"
-          target="_blank">Rights, resilience, and water in turbulent times</a>,”</b> with Erika
-      Weinthal, In <i>Global Environmental Politics in a Turbulent Era</i>,
-      2023.
-    </p>
-
-    <p>
-      <b>“<a href="https://academic.oup.com/edited-volume/35411/chapter-abstract/337861788?redirectedFrom=fulltext"
-          target="_blank">Illegal Wildlife Trade in the Mekong</a>,”</b> with Songkhun
-      Nillasithanukroh, Edmund Malesky, and Erika Weinthal, In
-      <i>The Oxford Handbook of Comparative Environmental Politics</i>, 2022.
-    </p>
-
-    <h3>Reports</h3>
-
-    <div class="image-container">
-      <img src="water_conflict.jpg" alt="Cover page of Water and Conflict Report" />
-      <img src="wildlife_trafficking.jpg" alt="Cover page of Scaling Back Wildlife Trade in the Mekong Delta Report" />
-    </div>
+    <h3>USAID Reports</h3>
 
     <p>
       <b>“<a href="https://www.globalwaters.org/resources/assets/water-and-conflict-toolkit-programming-0"
@@ -428,6 +357,56 @@
           Laos</a>,”</b> with Edmund Malesky, Songkhun Nillasithanukroh, and Erika Weinthal, prepared for
       USAID, June 2019.
     </p>
+
+    <div class="image-container">
+      <img src="water_conflict.jpg" alt="Cover page of Water and Conflict Report" />
+      <img src="wildlife_trafficking.jpg" alt="Cover page of Scaling Back Wildlife Trade in the Mekong Delta Report" />
+    </div>
+
+    <h3>Papers and Book Chapters</h3>
+
+   <p>
+   <b>“<a href="https://www.water-alternatives.org/index.php/alldoc/articles/vol16/v16issue2/706-a16-2-9/file"
+    target="_blank">Debating Desalination: Stakeholder Participation and
+    Decision-Making in Southern California</a>,”</b> In <i>Water Alternatives</i>, 2023.
+  </p>
+
+    <p>
+      <b>“<a href="https://www.elgaronline.com/edcollchap/book/9781802207149/book-part-9781802207149-10.xml"
+          target="_blank">Rights, resilience, and water in turbulent times</a>,”</b> with Erika
+      Weinthal, In <i>Global Environmental Politics in a Turbulent Era</i>,
+      2023.
+    </p>
+
+    <p>
+      <b>“<a href="https://academic.oup.com/edited-volume/35411/chapter-abstract/337861788?redirectedFrom=fulltext"
+          target="_blank">Illegal Wildlife Trade in the Mekong</a>,”</b> with Songkhun
+      Nillasithanukroh, Edmund Malesky, and Erika Weinthal, In
+      <i>The Oxford Handbook of Comparative Environmental Politics</i>, 2022.
+    </p>
+
+    <h3>Dissertation</h3>
+
+    <p>
+      <b>Managing (Unconventional) Water: Essays on Expert Knowledge, Media
+        Framings, and Stakeholder Debates</b>
+    </p>
+
+    <p>
+      My dissertation examines how water management is shaped at the level
+      of international organizations (e.g., UN-Water) and what information on desalination is
+      shared and debated across two other policy-relevant settings: the global
+      news media and a local community. It focuses on these three different
+      settings to capture wide information streams that individually and
+      collectively generate some of the corpus of knowledge on water
+      management and desalination. For individual chapters, please get in touch. 
+    </p>
+
+
+    <div class="image-container">
+      <img class="dissertation-image" src="dissertation.jpg" alt="UN Water Expert Group timeline" />
+    </div>
+
   </main>
   <footer></footer>
 </body>
